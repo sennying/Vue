@@ -12,7 +12,6 @@
 
 - 前端主要工作是MVC中的V。来制作前端页面
 
-
 ---
 
 
@@ -79,7 +78,26 @@
 
 
 
-**v-model实现表单数据的双向绑定**
+**v-model实现数据的双向绑定（唯一的双向数据绑定指令）**
+
+- v-bind不能实现双向数据绑定，只能单向数据绑定，即：M——>V
+- v-model能实现双向数据绑定，但是只能是表单元素（input radio text address email select checkbox textarea）
+
+
+
+---
+
+
+
+**v-model实现简易计算器**
+
+
+
+---
+
+
+
+
 
 
 
